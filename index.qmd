@@ -40,6 +40,9 @@ jupyter: python3
   <img src="images/logo-tilburg.png" style="height: 80px; width: auto; object-fit: contain;" />
 </div>
 
+# Placeholder
+Lorem ipsum
+
 # Info
 As a computational scientist or student you are often asked to write technical reports to be communicated in a way that colleagues who are not always expert on the methods can easily start to discover what research you have performed. What often happens is that a report is written in Word, Google Docs or overleaf, and then the detailed code that was used to generate the results is added as an appendix. This is far from ideal as you are creating a split attention of information. What if we can write a document that contains the code, the results, and the discussion in one place, but presented in a way that readers can choose what affords further scrutiny. And what if we can do this in a way that the code can be run and the results reproduced by anyone who has access to the document? In principle Quarto allows you to write fully integrated reproducible computational notebooks, or even fully integrated manuscripts/theses with code embeddings.
 
