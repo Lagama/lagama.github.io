@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html#dataset",
+    "href": "index.html#dataset",
+    "title": "Classification of animal orders based on 2D keypoints",
+    "section": "2.1 Dataset",
+    "text": "2.1 Dataset\nMy project proposal involves the AP-10K dataset, proposed by Yu et al. (2021). This dataset has 10,015 labeled images (13,028 animal instances) covering 54 mammal species in 23 families, organized by family and species. Each data instance gets annotated with 17 keypoints: eyes, nose, neck, tail root, shoulders, elbows, hips, knees and four paws. The authors state that generalization of models trained specific species in the dataset drop correlating to biological distance.\nI want to research to what extent proportions between 2D keypoints on labeled images can predict and distinct between different biological orders, and what body proportions carry these distinctions. I plan to do this using a data preprocessing pipeline followed by a deep-learning model. I will need to first gather data on the dataset to find what keypoints are often included and excluded, as not all 17 keypoints are included for every datapoint."
+  },
+  {
+    "objectID": "index.html#data-preprocessing",
+    "href": "index.html#data-preprocessing",
+    "title": "Classification of animal orders based on 2D keypoints",
+    "section": "2.2 Data preprocessing",
+    "text": "2.2 Data preprocessing\nMy proposal for the data preprocessing pipeline is as follows:\n\nFiltering the data to handle missing keypoints and drop datapoints with less than N keypoints or with certain high-importance keypoints missing. The exact details of this still needs to be deducted from the statistical analysis of the data\nNormalizing the data by orienting all animals to the right.\nDrop unneeded data, such as bounding boxes and pixel positions\nCreate extra features, such as log ratios between segments. Pool keypoints into groups and limbs.\nSplit data into k-fold cross validation folds"
+  },
+  {
+    "objectID": "index.html#models-to-be-used",
+    "href": "index.html#models-to-be-used",
+    "title": "Classification of animal orders based on 2D keypoints",
+    "section": "2.3 Models to be used",
+    "text": "2.3 Models to be used\nI plan to test the following models for classification of the data. More models may be added later, but these are the initial ones I plan to use based on initial research:\n\nMajority class used as baseline\nClass-weighted logistic regression\nGradient-boosted trees\n\nFrom a simple initial analysis, there seemed to be class imbalance (largest order in images is Carnivora). The majority class baseline will allow us to compare further models against a baseline."
+  }
+]
