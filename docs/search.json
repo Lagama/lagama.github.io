@@ -19,5 +19,12 @@
     "title": "Classification of animal orders based on 2D keypoints",
     "section": "2.3 Models to be used",
     "text": "2.3 Models to be used\nI plan to test the following models for classification of the data. More models may be added later, but these are the initial ones I plan to use based on initial research:\n\nMajority class used as baseline\nClass-weighted logistic regression\nGradient-boosted trees\n\nFrom a simple initial analysis, there seemed to be class imbalance (largest order in images is Carnivora). The majority class baseline will allow us to compare further models against a baseline."
+  },
+  {
+    "objectID": "index.html#project-timeline",
+    "href": "index.html#project-timeline",
+    "title": "Classification of animal orders based on 2D keypoints",
+    "section": "2.4 Project timeline",
+    "text": "2.4 Project timeline\n\n\n\n\n\n\n\nDate\nDeliverable(s)\n\n\n\n\nNov 2\nData loading; analysis on class distribution and data completeness\n\n\nNov 9\nFull data preprocessing pipeline; simple baseline classifier running and start with main model\n\n\nNov 16\nMain model completed; first eval and report\n\n\nNov 23\nFinalize evals and report; buffer to finish quarto\n\n\nNov 27\nDeadline"
   }
 ]

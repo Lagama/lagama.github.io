@@ -59,5 +59,15 @@ I plan to test the following models for classification of the data. More models 
 
 From a simple initial analysis, there seemed to be class imbalance (largest order in images is Carnivora). The majority class baseline will allow us to compare further models against a baseline. 
 
+## Project timeline
+
+| Date | Deliverable(s) |
+| ------ | ---------------------------------------------------------------------------------------------- |
+| Nov 2 | Data loading; analysis on class distribution and data completeness |
+| Nov 9 | Full data preprocessing pipeline; simple baseline classifier running and start with main model |
+| Nov 16 | Main model completed; first eval and report |
+| Nov 23 | Finalize evals and report; buffer to finish quarto |
+| Nov 27 | Deadline |
+
 # References
 Yu, H., Xu, Y., Zhang, J., Zhao, W., Guan, Z., & Tao, D. (2021, August 28). _AP-10K: A Benchmark for Animal Pose Estimation in the Wild_. arXiv.org. <a href="https://arxiv.org/abs/2108.12617">https://arxiv.org/abs/2108.12617</a>
