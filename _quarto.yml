@@ -3,3 +3,15 @@ project:
   output-dir: docs
   resources:
     - assets/**
+
+website: 
+  title: "AI for Nature & Environment - Lucas Kruk"
+  navbar:
+    tools:
+      - icon: github
+        href: https://github.com/Lagama/lagama.github.io
+    left:
+      - text: "Project proposal"
+        href: index.qmd
+      - text: "Project report"
+        href: project.qmd

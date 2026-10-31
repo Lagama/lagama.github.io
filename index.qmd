@@ -1,5 +1,5 @@
 ---
-title: "Classification of animal orders based on 2D keypoints"
+title: "Project proposal - Classification of animal orders based on 2D keypoints"
 subtitle: "Individual coding project"
 author: 
   - name: "Lucas Kruk"

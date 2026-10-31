@@ -1,0 +1,50 @@
+---
+title: "Project report - Classification of animal orders based on 2D keypoints"
+subtitle: "Individual coding project"
+author: 
+  - name: "Lucas Kruk"
+    affiliation: Department of Computational Cognitive Science, Tilburg University, Netherlands
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-title: "Contents"
+    toc-depth: 3
+    number-sections: true
+    code-fold: true
+    code-tools: true
+    theme: cosmo
+    css: 
+      - assets/styles.css
+      - assets/sticky-video.css
+    include-after-body: assets/sticky-video.html
+engine: jupyter
+jupyter: python3
+---
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+  <img src="images/logoenvisionboxbio.jpg" style="height: 80px; width: auto; object-fit: contain;" />
+  <img src="images/logo-department.png" style="height: 80px; width: auto; object-fit: contain;" />
+  <img src="images/logo-tilburg.png" style="height: 80px; width: auto; object-fit: contain;" />
+</div>
+
+---
+
+# Introduction
+
+# Methods
+
+## Data preprocessing
+
+## Choice of models
+
+## Weights and biases
+
+# Results
+
+# Discussion and impact
+
+## Conclusion
+
+# References
+Yu, H., Xu, Y., Zhang, J., Zhao, W., Guan, Z., & Tao, D. (2021, August 28). _AP-10K: A Benchmark for Animal Pose Estimation in the Wild_. arXiv.org. <a href="https://arxiv.org/abs/2108.12617">https://arxiv.org/abs/2108.12617</a>
